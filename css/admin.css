@@ -1,0 +1,86 @@
+/*
+	Author:Atul Kumar Singh;
+	Them: Food Delevery website admin
+	version: 1.0
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial,Helvetica,sans-serif;
+}
+
+.wrapper{
+	padding: 1%;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.clearfix{
+	float:none;
+	clear:both;
+}
+
+.tbl-full{
+	width: 100%;
+}
+
+table tr th{
+	border-bottom: 1px solid black;
+	padding: 1%;
+	text-align: left;
+}
+
+table tr td{
+	padding: 1%;
+
+}
+
+.btn-primary{
+	background-color: #5352ed;
+	padding: 1%;
+	color: white;
+	text-decoration: none;
+}
+
+/*css for menu*/
+.menu{
+	border-bottom: 1px solid gray;
+}
+.menu ul{
+	list-style-type:none;
+
+}
+.menu ul li{
+	display: inline;
+	padding: 1%;
+}
+.menu ul li a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #ff5e57;
+}
+.menu ul li a:hover{
+	color: #ef5777;
+}
+/*css for main-contant*/
+.main-contant{
+	background-color:#d1d8e0;
+	padding:3%
+}
+.col-4{
+	width:20%;
+	background-color:white;
+	margin:1%;
+	padding:1%;
+	float:left;
+}
+/*footer section*/
+.footer{
+	background-color:#e74c3c;
+	color:white;
+}
